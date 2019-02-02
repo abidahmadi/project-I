@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+ <input type="text" id="fare" >		
+ <input type="number" id="bseat" min="1" max="4">
+<!--  <input type="number"  id= "bseat" min="1" max="4" onkeyup="calc();" >-->
+
+ <button onclick="calc();">=</button>
+<input type="text" id="result">
+
+<script> 
+function calc(){
+	var s = parseFloat(document.getElementById('fare').value);
+	var f = parseFloat(document.getElementById('bseat').value);
+	
+	document.getElementById('result').value=s+f;
+}
+</script>
+</body>
+</html>

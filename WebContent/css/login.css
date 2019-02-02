@@ -1,0 +1,194 @@
+body
+{
+	margin:0;
+	padding:0;
+	background: url(background.png);
+	background-size: cover;
+	font-family: sans-serif;
+	}
+.title
+{
+	Text-align: center;
+	Padding: 50px 0 20px;
+}
+.title h1
+{
+	Margin:0;
+	Padding:0;
+	Color:#262626;
+	Text-transform: uppercase;
+	Font-size: 36px;
+}
+.container
+{
+	Width: 50%;
+	Height: 400px;
+	Background: #fff;
+	Margin: 0 auto;
+	Border: 2px solid #fff;
+	Box-shadow: 0 15px 40px rgba(0,0,0,.5)}
+.container .left
+{
+	Float: left;
+	Width:50%;
+	Height: 400px;
+	Background:url(rslogo.jpg);
+	Background-size: cover;
+	Box-sizing: border-box;}
+.container .right{
+	Float: right;
+	Width:50%;
+	Height: 400px;
+	
+	Box-sizing: border-box;}
+.formBox {
+	Width: 100%;
+	Padding: 80px 40px;
+	Box-sizing: border-box;
+	Height: 400px;
+	Background: #fff;}
+.formBox p {
+	Margin:0;
+	Padding:0;
+	Font-weight: bold;
+	Color: #a6af13;}
+.formBox input{
+	width: 100%;
+	Margin-bottom: 20px;
+	}
+.formBox input[type="text"],
+.formBox input[type="Password"]
+	{ border: none;
+	Border-bottom: 2px solid #a6af13;
+	Outline: none;
+	Height: 40px;
+}
+	.formBox input[type="text"]:focus,
+.formBox input[type="Password"]:focus
+{
+Border-bottom: 2px solid #262626;}
+
+.formBox input[type="submit"]
+{
+Border:none;
+Outline:none;
+Height: 40px;
+Color: #fff;
+Background:#262626;
+Cursor:pointer;
+}
+.formBox input[type="submit"]:hover
+{ background:#a6af13;}
+
+.formBox a{
+	Color: #262626;
+	Font-size: 12px;
+	Font-weight: bold;
+}
+<!--below belongs to registeration pg>
+
+#bodyreg
+{	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(0deg,lightblue 20%, #fff 20%);
+	font-family: sans-serif;
+}
+.wrapper
+{
+		position: absolute;
+		top: 50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+		width: 600px;
+		padding: 40px;
+		box-sizing: border-box;
+		background:#fff;
+		box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+.wrapper h2 
+{
+	color: #666;
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-size: 30px;
+	text-transform:uppercase;
+}
+.input-field
+{
+	position: relative;
+	width: 100%;
+	margin-top: 50px;
+}
+.input-field input
+{
+	width:100%;
+	padding:2px 0;
+	box-sizing: border-box;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #666;
+	font-size: 16px;
+	color: #666;
+	font-weight: 700;
+	text-orientation: uppercase;
+	resize: none;
+}
+.input-field label
+{	
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px 0;
+	pointer-events: none;
+	font-size: 16px;
+	color: #666;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.input-field input:focus +label,
+.input-field input:valid +label
+{	
+	top: -25px;
+	font-size: 14px;
+	padding: 2px 5px;
+	background: #a6af13;
+	color: #fff;
+	border-radius: 4px;
+}
+
+
+.btn, .btn1
+{	
+	margin-top: 10px;
+	background: #262626;
+	color: #fff;
+	padding: 10px 20px 20px 20px;
+	border: none;
+	outline: none;
+	height: 38px;
+	
+	
+	font-size: 14px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.btn{
+	float: right;
+}
+
+.btn1{
+	float: left;
+}
+
+.btn:hover, .btn1:hover
+{
+	background: #a6af13;
+}

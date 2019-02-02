@@ -1,0 +1,256 @@
+body
+{
+	margin:0;
+	padding:0;
+	background: url(background.png);
+	background-size: cover;
+	font-family: sans-serif;
+	color:black;
+	}
+ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid red;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+   }
+th, td {
+    text-align: center;
+    padding: 8px;
+    color:black;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+    background-color: #4CAF50;
+    color: white;
+} 
+.button1 {
+	 padding: 4px 12px; display: inline-block;
+	 font-size: 14px;
+    margin: 4px 2px;
+    background-color: white; 
+    color: black; 
+    border:2px solid white;
+}
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.button2 {
+	 padding: 4px 12px; display: inline-block;
+	 font-size: 14px;
+    margin: 4px 2px;
+    background-color: white; 
+    color: black; 
+    border:2px solid white;
+}
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.button3 {
+	 padding: 4px 12px; display: inline-block;
+	 font-size: 14px;
+    margin: 4px 2px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid white;
+}
+.button3:hover {
+    background-color: #555555;
+    color: white;
+}
+.button4 {
+	 padding: 4px 12px; display: inline-block;
+	 font-size: 14px;
+    margin: 4px 2px;
+    background-color: white; 
+
+    color: black; 
+    
+    border: 2px solid #f44336;
+}
+.button4:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.navbtns{
+	border: 1px solid gray;
+	background-color: white;
+}
+
+.booknow{
+	margin-left:100px;
+	margin-top:5px;
+}
+<!--below belongs to the booking page by BookingController class---------->
+
+.titleBooking
+{
+	
+	Padding: 50px 0 20px;
+	color:red;
+}
+.titlebooking h1
+{
+	Text-align: center;
+	Margin:0;
+	Padding:0;
+	Color:#262626;
+	Text-transform: uppercase;
+	Font-size: 36px;
+}
+.containerbooking
+{
+	Width: 95%;
+	Height: 420px;
+	background:#52a046;
+	Margin: 0 auto;
+	Border: 2px solid #fff;
+	
+	Box-shadow: 0 15px 40px rgba(0,0,0,.5)
+	
+	}
+.containerbooking .left
+{
+	Float: left;
+	Width:40%;
+	Height: 400px;
+	
+	Box-sizing: border-box;
+	}
+
+.containerbooking .right{
+	padding-top: 12px;
+	Float: right;
+	Width:40%;
+	Height: 400px;
+	
+	Box-sizing: border-box;}
+
+.containerbooking .box{
+
+	border:6px; 
+	margin-top:5px;
+	background: pink;
+	padding-left: 25px;
+	padding-top: 15px;
+}
+.formBoxBooking {
+	Width: 100%;
+	Padding: 10px 10px;
+	Box-sizing: border-box;
+	Height: 390px;
+	Background: #52a046;}
+
+.formBoxBooking p {
+	Margin:0;
+	Padding:0;
+	Font-weight: bold;
+	Color: #fff;}
+.formBoxBooking input{
+	width: 80%;
+	Margin-bottom: 10px;
+	}
+
+.formBoxBooking .booknow
+{
+	margin-left: 200px;
+Border:none;
+Outline:none;
+Height: 30px;
+Color: #fff;
+Background:#262626;
+Cursor:pointer;
+}
+.formBoxBooking .booknow:hover
+{ background:#a6af13;}
+
+.containerbooking .updatTotalBking
+{
+	
+	width: 20%;
+	margin-bottom:25px;
+	
+Border:none;
+Outline:none;
+Height: 30px;
+Color: #fff;
+Background:#262626;
+Cursor:pointer;
+Box-sizing: border-box;
+}
+.containerbooking .updatTotalBking:hover
+{ background:#a6af13;}
+
+.selectData select{
+	margin-left:135px;
+}
+.selectData input{
+	margin-left:135px;
+}
+.selectData label{
+	position:absolute;
+}
+.onoffl
+{border: 3 px solid green;  
+width:30%; 
+height:27px;
+margin-left:30px;
+ background: lightgreen; 
+ color:#fff; 
+}
+.container{
+	border: 3px solid grey; 
+	width:70%; 
+	margin: 20px ; 
+	margin-left: 180px;
+	height:230px; 
+	background:#fff; 
+	
+	border-radius:2px;
+	box-shadow: 0 15px 40px rgba(0,0,0,5);
+}
+.container .left{
+	float: left;
+	width: 50%;
+	height: 230px;
+	background-color: pink;
+	box-sizing: border-box;
+}
+.container .right{
+	float: right;
+	width: 50%;
+	height: 230px;
+	background-color: orange;
+	box-sizing: border-box;
+}
+
+.formRight {
+	width: 100%;
+	padding: 40px 40px;
+	box-sizing: border-box;
+	height:230px;
+	backgroung: #fff;
+}
+
